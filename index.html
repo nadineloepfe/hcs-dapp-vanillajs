@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WalletConnect HCS Example</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Let's test HCS!</h1>
+
+    <span id="accountId">No account connected</span><br /><br />
+    <button id="disconnectButton">Connect to WalletConnect</button>
+
+    <hr />
+
+    <div>
+      <h2>Create a Topic</h2>
+      <button id="createTopicButton">Create Topic</button>
+      <p id="topicIdDisplay">No topic yet</p>
+    </div>
+
+    <hr />
+
+    <div>
+      <h2>Submit a Message</h2>
+      <input type="text" placeholder="Enter your message here" id="messageInput" />
+      <button id="submitMessageButton">Submit Message</button>
+      <p id="messageStatus">No message submitted yet</p>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
