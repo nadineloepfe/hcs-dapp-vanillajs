@@ -1,5 +1,4 @@
 import {
-  AccountId,
   TopicId,
   TopicCreateTransaction,
   TopicMessageSubmitTransaction,
